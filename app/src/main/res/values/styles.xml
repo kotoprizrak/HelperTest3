@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Base application theme. -->
+	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<item name="colorPrimary">@color/primary</item>
+		<item name="colorPrimaryDark">@color/primary_dark</item>
+		<item name="colorAccent">@color/accent</item>
+		<item name="windowActionBar">false</item>
+		<item name="windowNoTitle">true</item>
+		<item name="drawerArrowStyle">@style/DrawerArrowToggle</item>
+		<item name="autoCompleteTextViewStyle">@style/AutoCompleteTextViewStyleEx</item>
+		<item name="buttonStyle">@style/ButtonStyleEx</item>
+		<item name="editTextStyle">@style/EditTextStyleEx</item>
+		<item name="checkboxStyle">@style/CheckBoxEx</item>
+		<item name="radioButtonStyle">@style/RadioButtonEx</item>
+		<item name="switchStyle">@style/SwitchEx</item>
+		<item name="android:textViewStyle">@style/TextViewStyleEx</item>
+	</style>
+	<style name="AutoCompleteTextViewStyleEx" parent="Base.Widget.AppCompat.AutoCompleteTextView">
+		<item name="fontFamily">@font/roboto_regular</item>
+	</style>
+	<style name="ButtonStyleEx" parent="Base.Widget.AppCompat.Button">
+		<item name="fontFamily">@font/roboto_bold</item>
+	</style>
+	<style name="EditTextStyleEx" parent="Base.Widget.AppCompat.EditText">
+		<item name="fontFamily">@font/roboto_regular</item>
+	</style>
+	<style name="CheckBoxEx" parent="Base.Widget.AppCompat.CompoundButton.CheckBox">
+		<item name="fontFamily">@font/roboto_regular</item>
+	</style>
+	<style name="RadioButtonEx" parent="Base.Widget.AppCompat.CompoundButton.RadioButton">
+		<item name="fontFamily">@font/roboto_regular</item>
+	</style>
+	<style name="TextViewStyleEx" parent="android:Widget.TextView">
+		<item name="fontFamily">@font/roboto_regular</item>
+	</style>
+	<style name="TitleTextAppearance" parent="android:style/TextAppearance">
+		<item name="fontFamily">@font/roboto_medium</item>
+	</style>
+	<style name="SwitchEx" parent="Base.Widget.AppCompat.CompoundButton.Switch">
+		<item name="fontFamily">@font/roboto_regular</item>
+	</style>
+	<style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.ActionBar">
+		<item name="colorControlNormal">@color/white</item>
+		<item name="navigationIcon">?attr/homeAsUpIndicator</item>
+		<item name="titleTextAppearance">@style/TitleTextAppearance</item>
+	</style>
+	<style name="DrawerArrowToggle" parent="Widget.AppCompat.DrawerArrowToggle">
+		<item name="color">@color/white</item>
+	</style>
+
+
+
+
+</resources>

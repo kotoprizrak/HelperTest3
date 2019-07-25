@@ -1,0 +1,39 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:fillViewport="true">
+		
+		<com.google.android.material.appbar.AppBarLayout
+			android:id="@+id/appbar"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+		
+			<androidx.appcompat.widget.Toolbar
+				android:id="@+id/toolbar"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:theme="@style/ToolbarTheme"
+				app:title="your title"
+				app:titleTextAppearance="@style/TitleTextAppearance"/>
+		
+			<com.google.android.material.tabs.TabLayout
+				android:id="@+id/tab_layout"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				app:tabIndicatorColor="#ffef4129"
+				app:tabMode="fixed"
+				app:tabPaddingEnd="25dp"
+				app:tabPaddingStart="25dp"
+				app:tabSelectedTextColor="#ffffffff"
+				app:tabTextColor="#b2ffffff"/>
+		</com.google.android.material.appbar.AppBarLayout>
+		
+		<!--<androidx.constraintlayout.widget.ConstraintLayout-->
+			<!--android:layout_width="match_parent"-->
+			<!--android:layout_height="match_parent">-->
+		<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+	</ScrollView>
+</layout>
